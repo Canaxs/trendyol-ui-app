@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Search } from 'lucide-vue-next';
 import { Input } from "@/components/ui/input";
+import Navigation from '../Menu-Navigation/Navigation.vue';
 
 </script>
 <template>
@@ -41,7 +42,7 @@ import { Input } from "@/components/ui/input";
             </div>
         </div>
         <div>
-
+            <Navigation />
         </div>
     </div>
 </template>
