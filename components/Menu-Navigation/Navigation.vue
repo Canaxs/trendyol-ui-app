@@ -101,11 +101,11 @@ watchOnce(api, (api) => {
 </script>
 <template>
 <NavigationMenu>
-    <NavigationMenuList>
-      <Carousel :opts="{ align: 'start',}" @init-api="setApi" class="w-full" >
+    <NavigationMenuList class="max-lg:mt-2">
+      <Carousel :opts="{ align: 'start',}" @init-api="setApi" class="w-full">
         <CarouselContent>
-          <CarouselItem v-for="item of components" :key="item.title" class="md:basis-1/2 lg:basis-[14%]">
-          <NavigationMenuItem>
+          <CarouselItem v-for="item of components" :key="item.title" class="max-2xl:basis-[19%] 2xl:basis-[13%] max-sm:basis-[25%]">
+          <NavigationMenuItem class="block">
             <NavigationMenuTrigger class="lg:w-full text-[12px]">{{ item.title }}</NavigationMenuTrigger>
             <NavigationMenuContent class="w-full">
                 <ul class="grid gap-3 p-6 w-full lg:grid-cols-[minmax(0,.75fr)_minmax(0,1fr)]">

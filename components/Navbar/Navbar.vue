@@ -2,10 +2,11 @@
 import { Search } from 'lucide-vue-next';
 import { Input } from "@/components/ui/input";
 import Navigation from '../Menu-Navigation/Navigation.vue';
+import ToggleMenu from '../Toggle-Menu/ToggleMenu.vue';
 
 </script>
 <template>
-    <div class="navbar-container w-3/5 pt-1 ml-[20%]">
+    <div class="navbar-container lg:w-[98%] 2xl:w-3/5 pt-1 lg:ml-[1%] 2xl:ml-[20%]">
         <div>
            <ul class="flex float-end text-[11px] text-stone-400 cursor-pointer">
             <li>İndirim Kuponlarım</li>
@@ -14,7 +15,7 @@ import Navigation from '../Menu-Navigation/Navigation.vue';
             <li class="ml-5">Yardım & Destek</li>
            </ul> 
         </div>
-        <div class="flex mt-6 items-center">
+        <div class="flex mt-6 items-center max-lg:hidden">
             <div class="w-1/5">
                 <img src="https://cdn.dsmcdn.com/web/logo/ty-web.svg" alt="Trendyol Logo" width="150px" height="150px"/>
             </div>
@@ -39,6 +40,16 @@ import Navigation from '../Menu-Navigation/Navigation.vue';
                     <Icon name="ph:basket-light" class="size-5 mr-1" />
                     <span>Sepetim</span>
                 </div>
+            </div>
+        </div>
+        <div class="mt-6 lg:hidden max-lg:flex justify-between">
+            <div class="ml-2">
+                <ToggleMenu />
+            </div>
+            <div class="flex mt-2">
+                <a href="#"><Icon name="la:user" class="size-8 mr-3 cursor-pointer hover:text-cyan-600" /></a>
+                <a href="#"><Icon name="la:heart" class="size-8 mr-3 cursor-pointer hover:text-cyan-600" /></a>
+                <a href="#"><Icon name="ph:basket-light" class="size-8 mr-3 cursor-pointer hover:text-cyan-600" /></a>
             </div>
         </div>
         <div>
