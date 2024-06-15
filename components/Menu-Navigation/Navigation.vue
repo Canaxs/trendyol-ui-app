@@ -17,68 +17,9 @@ import {
 } from '@/components/ui/carousel';
 import { watchOnce } from '@vueuse/core';
 import type { CarouselApi } from '@/components/ui/carousel';
-const components: { title: string, href: string, description: string }[] = [
-  {
-    title: 'Kadın',
-    href: '#',
-    description:
-      'Lorem İpsum Sit amet Dolor',
-  },
-  {
-    title: 'Erkek',
-    href: '#',
-    description:
-      'Lorem İpsum Sit amet Dolor',
-  },
-  {
-    title: 'Anne & Çocuk',
-    href: '#',
-    description:
-      'Lorem İpsum Sit amet Dolor',
-  },
-  {
-    title: 'Ev & Yaşam',
-    href: '#',
-    description:
-      'Lorem İpsum Sit amet Dolor',
-  },
-  {
-    title: 'Süpermarket',
-    href: '#',
-    description:
-      'Lorem İpsum Sit amet Dolor',
-  },
-  {
-    title: 'Kozmetik',
-    href: '#',
-    description:
-      'Lorem İpsum Sit amet Dolor',
-  },
-  {
-    title: 'Moda',
-    href: '#',
-    description:
-      'Lorem İpsum Sit amet Dolor',
-  },
-  {
-    title: 'Elektronik',
-    href: '#',
-    description:
-      'Lorem İpsum Sit amet Dolor',
-  },
-  {
-    title: 'Çok Satanlar',
-    href: '#',
-    description:
-      'Lorem İpsum Sit amet Dolor',
-  },
-  {
-    title: 'Elektronik',
-    href: '#',
-    description:
-      'Lorem İpsum Sit amet Dolor',
-  }
-]
+import Menu from '~/data/Menu';
+
+const components = Menu;
 const api = ref<CarouselApi>()
 const totalCount = ref(0)
 const current = ref(0)
