@@ -20,8 +20,9 @@ let onClickBack = (value) => {
 </script>
 <template>
     <div>
+        <div class="absolute left-3 top-1" v-if="current"><img src="https://cdn.dsmcdn.com/web/logo/ty-web.svg" alt="Trendyol Logo" width="100px" height="100px"/></div>
         <div class="absolute left-3 top-3 cursor-pointer" @click="onClickBack(true)" v-if="!current"><Icon name="material-symbols:arrow-back-rounded" class="size-5 text-gray-400" /></div>
-        <div class="mt-8" id="sideToggle">
+        <div class="mt-9" id="sideToggle">
             <ul v-for="item of menuItems" v-if="current">
                 <li @click='onClickLi(false,item)' class="p-5 mt-3 border border-gray-300 rounded shadow hover:bg-gray-100 transition-all cursor-pointer">
                     <Icon :name="item.icon" class="size-4 text-gray-400 float-start mt-1 mr-2" />
