@@ -19,7 +19,7 @@ import { watchOnce } from '@vueuse/core';
 import type { CarouselApi } from '@/components/ui/carousel';
 import Menu from '~/data/Menu';
 
-const components = Menu;
+const components = ref(Menu);
 const api = ref<CarouselApi>()
 const totalCount = ref(0)
 const current = ref(0)
@@ -48,7 +48,7 @@ watchOnce(api, (api) => {
           <CarouselItem v-for="item of components" :key="item.title" class="max-2xl:basis-[19%] 2xl:basis-[13%] max-sm:basis-[25%]">
           <NavigationMenuItem class="block">
             <NavigationMenuTrigger class="lg:w-full text-[12px]">{{ item.title }}</NavigationMenuTrigger>
-            <NavigationMenuContent class="w-full">
+            <NavigationMenuContent class="w-full max-lg:hidden">
                 <ul class="grid gap-3 p-6 w-full lg:grid-cols-[minmax(0,.75fr)_minmax(0,1fr)]">
                 <li class="row-span-3 w-full">
                   <NavigationMenuLink as-child>

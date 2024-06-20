@@ -11,6 +11,7 @@ import {
 } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
 import ChildMenu from '~/data/ChildMenu';
+import Side from '../Side-Menu/Side.vue';
 
 const childMenu = ChildMenu;
 
@@ -28,6 +29,7 @@ const childMenu = ChildMenu;
     </div>
     </SheetTrigger>
     <SheetContent side="left">
+      <Side />
     </SheetContent>
   </Sheet>
 </template>
