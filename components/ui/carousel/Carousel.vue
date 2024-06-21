@@ -33,7 +33,7 @@ function onKeyDown(event: KeyboardEvent) {
 
 <template>
   <div
-    :class="cn('relative w-full', props.class)"
+    :class="cn('relative', props.class)"
     role="region"
     aria-roledescription="carousel"
     tabindex="0"

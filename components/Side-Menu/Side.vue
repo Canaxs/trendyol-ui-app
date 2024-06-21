@@ -8,18 +8,18 @@ let current = ref(true);
 const menuItems = ref(Menu);
 const subItems = ref(ChildMenu);
 
-let onClickLi = (value,item) => {
+let onClickLi = (value: any,item: any) => {
     current.value = value;
     subItems.value = subItems.value.filter(subItem => subItem.menuId === item.menuId);
 }
-let onClickBack = (value) => {
+let onClickBack = (value: any) => {
     current.value = value;
     subItems.value = ChildMenu;
 }
 
 </script>
 <template>
-    <div>
+    <div style="font-family: 'Poppins', sans-serif;">
         <div class="absolute left-3 top-1" v-if="current"><img src="https://cdn.dsmcdn.com/web/logo/ty-web.svg" alt="Trendyol Logo" width="100px" height="100px"/></div>
         <div class="absolute left-3 top-3 cursor-pointer" @click="onClickBack(true)" v-if="!current"><Icon name="material-symbols:arrow-back-rounded" class="size-5 text-gray-400" /></div>
         <div class="mt-9" id="sideToggle">
