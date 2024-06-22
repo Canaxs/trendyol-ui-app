@@ -63,7 +63,7 @@ watchOnce(api, (api) => {
                       class="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                       :href="child.href"
                     >
-                      <img src="https://www.radix-vue.com/logo.svg" class="h-6 w-6">
+                      <Icon :name="item.icon" class="h-5 w-5 text-slate-300 shadow-lg" />
                       <div class="mb-2 mt-4 text-lg font-medium">
                         {{ child.title }}
                       </div>

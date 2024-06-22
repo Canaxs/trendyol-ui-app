@@ -1,5 +1,6 @@
-const Product: { title: string, description: string,image: string,price: number,star: number,category: string, questions: number,rating: number, favorite: number}[] = [ 
+const Product: { id: number,title: string,description: string,image: string,price: number,star: number,category: string, questions: number,rating: number, favorite: number}[] = [ 
     {
+        id:1,
         title: "IKT",
         description: "Hair Wax Stick 75gr - Saç Sabitleyici",
         image: "https://cdn.dsmcdn.com/ty1369/product/media/images/prod/QC/20240614/13/38d256b0-fa0a-3940-a933-834a554eeba2/1_org_zoom.jpg",
@@ -10,9 +11,8 @@ const Product: { title: string, description: string,image: string,price: number,
         rating: 24150,
         favorite: 80545
     },
-
-
     {
+        id:2,
         title: "Bargello",
         description: "Promosyon Babalar Günü Erkek 50 ml Parfüm Edp",
         image: "https://cdn.dsmcdn.com/ty1358/product/media/images/prod/QC/20240610/11/288e2b34-335e-3751-9b7f-c02acb053314/1_org_zoom.jpg",
@@ -24,6 +24,7 @@ const Product: { title: string, description: string,image: string,price: number,
         favorite: 248
     },
     {
+        id:3,
         title: "Sağlıklı Yaşam",
         description: "Dijital Temassız Ateş Ölçer Alından",
         image: "https://cdn.dsmcdn.com/ty1359/product/media/images/prod/QC/20240612/11/ce1bdb6d-2a89-3dc1-be83-636c6f0af4da/1_org_zoom.jpg",
@@ -35,6 +36,7 @@ const Product: { title: string, description: string,image: string,price: number,
         favorite: 4434
     },
     {
+        id:4,
         title: "WINNERAIN",
         description: "Erkek Atlet Tekli Beyaz %100 Pamuk Penye",
         image: "https://cdn.dsmcdn.com/ty1335/product/media/images/prod/QC/20240528/10/1724cb16-64a1-3fa4-9c5a-9e0413251ac5/1_org_zoom.jpg",
@@ -46,6 +48,7 @@ const Product: { title: string, description: string,image: string,price: number,
         favorite: 4324
     },
     {
+        id:5,
         title: "F&W FİT WOMEN",
         description: "Ayarlanır Medikal Dik Duruş",
         image: "https://cdn.dsmcdn.com/ty1151/product/media/images/prod/SPM/PIM/20240128/01/0601188b-716d-3857-ab5c-afc2876c433a/1_org_zoom.jpg",
@@ -57,6 +60,7 @@ const Product: { title: string, description: string,image: string,price: number,
         favorite: 1212
     },
     {
+        id:6,
         title: "Sağlıklı Yaşam",
         description: "Dijital Temassız Ateş Ölçer Alından",
         image: "https://cdn.dsmcdn.com/ty1359/product/media/images/prod/QC/20240612/11/ce1bdb6d-2a89-3dc1-be83-636c6f0af4da/1_org_zoom.jpg",
@@ -68,6 +72,7 @@ const Product: { title: string, description: string,image: string,price: number,
         favorite: 4434
     },
     {
+        id:7,
         title: "WINNERAIN",
         description: "Erkek Atlet Tekli Beyaz %100 Pamuk Penye",
         image: "https://cdn.dsmcdn.com/ty1335/product/media/images/prod/QC/20240528/10/1724cb16-64a1-3fa4-9c5a-9e0413251ac5/1_org_zoom.jpg",
@@ -79,6 +84,7 @@ const Product: { title: string, description: string,image: string,price: number,
         favorite: 4324
     },
     {
+        id:8,
         title: "F&W FİT WOMEN",
         description: "Ayarlanır Medikal Dik Duruş",
         image: "https://cdn.dsmcdn.com/ty1151/product/media/images/prod/SPM/PIM/20240128/01/0601188b-716d-3857-ab5c-afc2876c433a/1_org_zoom.jpg",
@@ -90,6 +96,7 @@ const Product: { title: string, description: string,image: string,price: number,
         favorite: 1212
     },
     {
+        id:9,
         title: "IKT",
         description: "Hair Wax Stick 75gr - Saç Sabitleyici",
         image: "https://cdn.dsmcdn.com/ty1369/product/media/images/prod/QC/20240614/13/38d256b0-fa0a-3940-a933-834a554eeba2/1_org_zoom.jpg",
@@ -100,9 +107,8 @@ const Product: { title: string, description: string,image: string,price: number,
         rating: 24150,
         favorite: 80545
     },
-
-
     {
+        id:10,
         title: "Bargello",
         description: "Promosyon Babalar Günü Erkek 50 ml Parfüm Edp",
         image: "https://cdn.dsmcdn.com/ty1358/product/media/images/prod/QC/20240610/11/288e2b34-335e-3751-9b7f-c02acb053314/1_org_zoom.jpg",
