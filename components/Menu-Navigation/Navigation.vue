@@ -31,6 +31,10 @@ function setApi(val: CarouselApi) {
   api.value = val
 }
 
+function routeMenu(value: string) {
+  return navigateTo("/menu/"+value);
+}
+
 function getChildMenu(menuId: number) {
   return childMenu.value.filter(item => item.menuId === menuId);
 }
@@ -53,7 +57,7 @@ watchOnce(api, (api) => {
       <Carousel :opts="{ align: 'start',}" @init-api="setApi" class="w-full">
         <CarouselContent>
           <CarouselItem v-for="item of components" :key="item.title" class="max-2xl:basis-[20%] 2xl:basis-[14%] max-sm:basis-[25%]">
-          <NavigationMenuItem class="block">
+          <NavigationMenuItem class="block" @click="routeMenu(item.title)">
             <NavigationMenuTrigger class="w-full text-[12px] font-normal">{{ item.title }}</NavigationMenuTrigger>
             <NavigationMenuContent class="w-full max-lg:hidden">
                 <ul class="flex flex-wrap gap-3 p-7 w-full">

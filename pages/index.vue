@@ -8,5 +8,6 @@
         <ProductBox2 />
         <LazyCarouselTrend class="bg-[url('https://cdn.dsmcdn.com/mobile/background/flashsales_widgetbacground_android.png')] bg-cover " title="Flaş Ürünler" tcolor="text-white"/>
         <ProductBox />
+        <TrendFooter />
     </div>
 </template>

@@ -27,9 +27,9 @@ onMounted(() => {
             <li class="ml-5">Yardım & Destek</li>
            </ul> 
         </div>
-        <div id="stickyHeader" class="flex mt-6 items-center max-lg:hidden">
+        <div id="stickyHeader" class="flex mt-6 items-center max-lg:hidden transition-all">
             <div class="w-1/5">
-                <img src="https://cdn.dsmcdn.com/web/logo/ty-web.svg" alt="Trendyol Logo" width="150px" height="150px"/>
+                <a href="/"><img src="https://cdn.dsmcdn.com/web/logo/ty-web.svg" alt="Trendyol Logo" width="150px" height="150px"/></a>
             </div>
             <div class="w-3/6">
                 <div class="relative w-100 items-center">
