@@ -259,13 +259,6 @@ const ChildMenu: { title: string, href: string,menuId: number, description: stri
           'Moda',
       },
       {
-        title: 'Şapka & Aksesuar',
-        href: '#',
-        menuId: 1007,
-        description:
-          'Elektronik',
-      },
-      {
         title: 'Bilgisayar',
         href: '#',
         menuId: 1007,
