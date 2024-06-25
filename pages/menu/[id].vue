@@ -21,7 +21,7 @@ onMounted(() => {
     <div style="font-family: 'Poppins', sans-serif;">
         <Navbar />
         <LazyOwlCarousel />
-        <ProductBox />
+        <ProductBox class="mt-10"/>
         <LazyCarouselTrend title="Çok Satan Ürünler" class="bg-gray-100"/>
         <LazyCarouselTrend title="Avantajlı Ürünler" class="bg-gray-100"/>
         <TrendFooter />
