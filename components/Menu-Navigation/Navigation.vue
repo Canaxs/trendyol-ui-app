@@ -56,7 +56,7 @@ watchOnce(api, (api) => {
     <NavigationMenuList class="max-lg:mt-2">
       <Carousel :opts="{ align: 'start',}" @init-api="setApi" class="w-full">
         <CarouselContent>
-          <CarouselItem v-for="item of components" :key="item.title" class="max-2xl:basis-[20%] 2xl:basis-[14%] max-sm:basis-[25%]">
+          <CarouselItem v-for="item of components" :key="item.title" class="max-2xl:basis-[20%] 2xl:basis-[14%] max-sm:basis-[32%]">
           <NavigationMenuItem class="block" @click="routeMenu(item.title)">
             <NavigationMenuTrigger class="w-full text-[12px] font-normal">{{ item.title }}</NavigationMenuTrigger>
             <NavigationMenuContent class="w-full max-lg:hidden">

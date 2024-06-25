@@ -6,7 +6,7 @@ const owlMenu = ref(OwlMenu);
 
 </script>
 <template>
-    <div class="lg:w-[98%] 2xl:w-3/5 lg:ml-[1%] 2xl:ml-[20%] mt-10">
+    <div class="lg:w-[98%] 2xl:w-[65%] lg:ml-[1%] 2xl:ml-[17%] mt-10">
         <Carousel class="w-full" :opts="{align: 'start',}">
             <CarouselContent class="-ml-1">
                 <CarouselItem v-for="item in owlMenu" class="pl-1 max-md:basis-1/4 md:basis-1/6 lg:basis-[10%]">

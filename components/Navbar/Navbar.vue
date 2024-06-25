@@ -9,16 +9,16 @@ onMounted(() => {
     window.addEventListener("scroll",function () {
         let header = document.getElementById('stickyHeader');
         header?.classList.toggle("stickyHeader",window.scrollY > 0);
-        header?.classList.toggle("lg:w-[98%]",window.scrollY > 0);
-        header?.classList.toggle("2xl:w-3/5",window.scrollY > 0);
+        header?.classList.toggle("w-[98%]",window.scrollY > 0);
+        header?.classList.toggle("2xl:w-[65%]",window.scrollY > 0);
         header?.classList.toggle("lg:ml-[1%]",window.scrollY > 0);
-        header?.classList.toggle("2xl:ml-[20%]",window.scrollY > 0);
+        header?.classList.toggle("2xl:ml-[17%]",window.scrollY > 0);
     })
 })
 
 </script>
 <template>
-    <div class="navbar-container lg:w-[98%] 2xl:w-3/5 pt-1 lg:ml-[1%] 2xl:ml-[20%]">
+    <div class="navbar-container lg:w-[98%] 2xl:w-[65%] pt-1 lg:ml-[1%] 2xl:ml-[17%]">
         <div>
            <ul class="flex float-end text-[11px] text-stone-400 cursor-pointer max-sm:text-[6px]">
             <li>İndirim Kuponlarım</li>

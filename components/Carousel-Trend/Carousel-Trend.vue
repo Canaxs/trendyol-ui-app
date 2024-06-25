@@ -29,7 +29,7 @@ const props = defineProps(['class','title','tcolor']);
 
 </script>
 <template>
-    <div :class="cn('lg:w-[98%] 2xl:w-3/5 lg:ml-[1%] 2xl:ml-[20%] p-7 mt-10 rounded-lg',props.class)">
+    <div :class="cn('lg:w-[98%] 2xl:w-[65%] lg:ml-[1%] 2xl:ml-[17%] p-7 mt-10 rounded-lg',props.class)">
         <h4 :class="cn('mb-5 font-semibold text-lg',props.tcolor)">{{ props.title }}</h4>
         <Carousel class="relative w-full" :opts="{align: 'start'}">
             <CarouselContent>

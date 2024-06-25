@@ -13,7 +13,7 @@ const { orientation, canScrollNext, scrollNext } = useCarousel()
 <template>
   <Button
     :disabled="!canScrollNext"
-    :class="cn('touch-manipulation absolute h-8 w-8 rounded-full p-0', orientation === 'horizontal' ? '-right-4 top-1/2 -translate-y-1/2'
+    :class="cn('touch-manipulation absolute h-8 w-8 rounded-full p-0', orientation === 'horizontal' ? '-right-4 top-1/2 -translate-y-1/2 opacity-30 hover:opacity-100 transition-all'
         : '-bottom-12 left-1/2 -translate-x-1/2 rotate-90',
         !canScrollNext ? 'hidden' : '',
       props.class,
