@@ -77,7 +77,7 @@ watchOnce(emblaMainApi, (emblaMainApi) => {
 
 </script>
 <template>
-    <div>
+    <div style="font-family: 'Poppins', sans-serif;">
         <Navbar />
         <div class="lg:w-[98%] 2xl:w-3/5 lg:ml-[1%] 2xl:ml-[20%] mt-10">
             <div class="flex flex-wrap">
@@ -89,17 +89,17 @@ watchOnce(emblaMainApi, (emblaMainApi) => {
                         <span><bold class="font-medium">{{ getProduct(Number(route.params.id)).title }}</bold> {{ getProduct(Number(route.params.id)).description }}</span>
                     </div>
                     <div class="flex items-center mt-4">
-                        <span>{{ getProduct(Number(route.params.id)).star }} 
+                        <span class="text-sm">{{ getProduct(Number(route.params.id)).star }} 
                             <Icon v-for="(_, index2) in getFillStarNumber(getProduct(Number(route.params.id)).star)" name="material-symbols:star" class="size-3 ml-1 mb-1 text-yellow-400"/>
                             <Icon v-for="(_, index3) in getEmptyStarNumber(getProduct(Number(route.params.id)).star)" name="material-symbols:star-outline" class="size-3 ml-1 mb-1 text-gray-400"/>
                         </span>
-                        <span class="ml-2 text-xs">{{ getProduct(Number(route.params.id)).rating }} Değerlendirme
+                        <span class="ml-2 text-[10px]">{{ getProduct(Number(route.params.id)).rating }} Değerlendirme
                             <Icon name="streamline:image-camera-tripod-tripod-photos-picture-camera-photography-photo-pictures" class="size-4 ml-1 mb-1 text-blue-300" />
                         </span>
-                        <span class="ml-2 text-xs">{{ getProduct(Number(route.params.id)).questions }} Soru & Cevap
+                        <span class="ml-2 text-[10px]">{{ getProduct(Number(route.params.id)).questions }} Soru & Cevap
                             <Icon name="mdi:frequently-asked-questions" class="size-4 ml-1 " />
                         </span>
-                        <span class="ml-2 text-xs">{{ getProduct(Number(route.params.id)).favorite }} Favoriler
+                        <span class="ml-2 text-[10px]">{{ getProduct(Number(route.params.id)).favorite }} Favoriler
                             <Icon name="material-symbols:bookmark-heart-outline" class="size-5 ml-1 text-orange-400" />
                         </span>
                     </div>
@@ -140,9 +140,9 @@ watchOnce(emblaMainApi, (emblaMainApi) => {
                             <span class="text-sm font-medium text-blue-500">Trendyol Mağaza<span class="text-xs ml-2 bg-green-400 px-2 py-1 text-white rounded">9.2</span></span>
                             <span class="text-xs">533,4B Takipçi</span>
                         </div>
-                        <div class="flex flex-col text-sm font-medium mt-1">
-                            <span class="flex items-center"><div class="border p-3 m-1 bg-gray-200 rounded"></div>Takip Et Kazan</span>
-                            <span class="flex items-center"><div class="border p-3 m-1 bg-gray-200 rounded"></div>Satıcı Soruları</span>
+                        <div class="flex flex-col text-xs font-medium mt-1">
+                            <span class="flex items-center"><div class="border p-3 m-2 bg-gray-200 rounded"></div>Takip Et Kazan</span>
+                            <span class="flex items-center"><div class="border p-3 m-2 bg-gray-200 rounded"></div>Satıcı Soruları</span>
                         </div>
                         <div class="w-full flex justify-center relative top-2 h-4">
                             <Button  variant="secondary" class="rounded-3xl tracking-wider text-[#333333]">Mağazaya Git</Button>
@@ -161,7 +161,7 @@ watchOnce(emblaMainApi, (emblaMainApi) => {
         <diV>
                 <LazyCarouselTrend class="bg-[#ffffff]" title="Bu Ürünü Alanlar Bunları da Aldı" />
         </diV>
-        <div class="lg:w-[98%] 2xl:w-3/5 lg:ml-[1%] 2xl:ml-[20%] mt-10 pl-7">
+        <div class="lg:w-[98%] 2xl:w-[65%] lg:ml-[1%] 2xl:ml-[17%] mt-10 pl-7">
             <p class="font-semibold text-base">Ürünün Diğer Satıcıları ( {{ productSeller.length }} )</p>
             <div class="flex flex-wrap mt-5">
                 <div v-for="item of productSeller" class=" max-md:basis-[97%] basis-[47%] mr-[1%] border border-gray-300 rounded-md flex justify-between items-center mt-2">

@@ -64,14 +64,14 @@ watchOnce(api, (api) => {
                 <li v-for="child of getChildMenu(item.menuId)" class="row-span-3 lg:basis-[19%]">
                   <NavigationMenuLink as-child>
                     <a
-                      class="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
+                      class="flex h-full w-full select-none flex-col rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                       :href="child.href"
                     >
-                      <Icon :name="item.icon" class="h-5 w-5 text-slate-300 shadow-lg" />
-                      <div class="mb-2 mt-4 text-lg font-medium">
+                      <Icon :name="item.icon" class="h-5 w-5 text-[#f27a1a]" />
+                      <div class="mb-2 mt-4 text-sm font-medium">
                         {{ child.title }}
                       </div>
-                      <p class="text-sm leading-tight text-muted-foreground">
+                      <p class="text-xs leading-tight text-muted-foreground">
                         {{child.description}}
                       </p>
                     </a>

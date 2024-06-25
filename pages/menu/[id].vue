@@ -18,7 +18,7 @@ onMounted(() => {
 })
 </script>
 <template>
-    <div>
+    <div style="font-family: 'Poppins', sans-serif;">
         <Navbar />
         <LazyOwlCarousel />
         <ProductBox />
