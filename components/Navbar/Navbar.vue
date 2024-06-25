@@ -20,7 +20,7 @@ onMounted(() => {
 <template>
     <div class="navbar-container lg:w-[98%] 2xl:w-3/5 pt-1 lg:ml-[1%] 2xl:ml-[20%]">
         <div>
-           <ul class="flex float-end text-[11px] text-stone-400 cursor-pointer max-sm:hidden">
+           <ul class="flex float-end text-[11px] text-stone-400 cursor-pointer max-sm:text-[6px]">
             <li>İndirim Kuponlarım</li>
             <li class="ml-5">Trendyol'da Satış Yap</li>
             <li class="ml-5">Hakkımızda</li>
