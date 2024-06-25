@@ -24,7 +24,7 @@ const childMenu = ChildMenu;
         <Icon name="ri:menu-fill" class="size-5 mr-1" />
       </Button>
       <div class="ml-3 relative top-1">
-        <img src="https://cdn.dsmcdn.com/web/logo/ty-web.svg" alt="Trendyol Logo" width="100px" height="100px" />
+        <a href="/" ><img src="https://cdn.dsmcdn.com/web/logo/ty-web.svg" alt="Trendyol Logo" width="100px" height="100px" /></a>
       </div>
     </div>
     </SheetTrigger>
