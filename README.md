@@ -1,75 +1,58 @@
-# Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[![Contributors][contributors-shield]][contributors-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Setup
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/Canaxs/trendyol-clone-ui">
+    <img src="https://www.cdnlogo.com/logos/t/78/trendyol-stayhome.svg" alt="Logo" width="80" height="80">
+  </a>
 
-Make sure to install the dependencies:
+<h3 align="center">Trendyol UI App</h3>
+</div>
 
-```bash
-# npm
-npm install
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-# pnpm
-pnpm install
+It is a clone project of trendyol website
 
-# yarn
-yarn install
+PUBLİSHED ADDRESS: trendyol-clone-ui.vercel.app
 
-# bun
-bun install
-```
 
-## Development Server
 
-Start the development server on `http://localhost:3000`:
+### Built With
 
-```bash
-# npm
-npm run dev
 
-# pnpm
-pnpm run dev
+<!-- LICENSE -->
+## License
 
-# yarn
-yarn dev
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-# bun
-bun run dev
-```
 
-## Production
 
-Build the application for production:
+<!-- CONTACT -->
+## Contact
 
-```bash
-# npm
-npm run build
+Mail and Twitter - [@your_twitter](https://twitter.com/cana_meric) - mmericcana@gmail.com
 
-# pnpm
-pnpm run build
+Project Link: [https://github.com/Canaxs/trendyol-clone-ui](https://github.com/Canaxs/trendyol-clone-ui)
 
-# yarn
-yarn build
 
-# bun
-bun run build
-```
 
-Locally preview production build:
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
 
-```bash
-# npm
-npm run preview
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-# pnpm
-pnpm run preview
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Pages](https://pages.github.com)
 
-# yarn
-yarn preview
 
-# bun
-bun run preview
-```
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/Canaxs/trendyol-clone-ui
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/mericcana/
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
