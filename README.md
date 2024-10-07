@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Canaxs/trendyol-clone-ui">
-    <img src="https://www.cdnlogo.com/logos/t/78/trendyol-stayhome.svg" alt="Logo" width="80" height="80">
+    <img src="https://www.cdnlogo.com/logos/t/78/trendyol-stayhome.svg" alt="Logo" width="150" height="150">
   </a>
 
 <h3 align="center">Trendyol UI App</h3>
